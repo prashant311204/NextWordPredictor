@@ -10,6 +10,7 @@ DATA_FILE = 'data/sherlock.txt'
 TOKENIZER_FILE = 'models/tokenizer.pkl'
 SEQUENCE_DATA_FILE = 'data/sequences.npy'
 MAX_SEQUENCE_LEN = 20  # Length of input sequence (predict next word after 19 words)
+DATA_DIR = 'data'
 
 def load_data(data_dir):
     text = ""
