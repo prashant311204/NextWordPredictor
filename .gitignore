@@ -1,1 +1,2 @@
-models/*
+models/history.json
+models/next_word_model.keras
